@@ -4,7 +4,7 @@ import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 class ApiClient {
   ApiClient._();
 
-  static const String baseUrl = "http://192.168.10.209:8000/api";
+  static const String baseUrl = "https://192.168.0.104:8000/api";
 
   static final _storage = const FlutterSecureStorage();
 
